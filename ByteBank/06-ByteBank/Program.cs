@@ -10,7 +10,7 @@ namespace _06_ByteBank
             Cliente cliente = new Cliente();
 
             cliente.Nome = "Guilherme";
-            cliente.Cpf = "434.564.879-20";
+            cliente.CPF = "434.564.879-20";
             cliente.Profissao = "Desenvolvedor";
 
             conta.Saldo = -10;
