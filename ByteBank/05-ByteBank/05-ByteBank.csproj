@@ -7,7 +7,7 @@
     <ProjectGuid>{2E40CAC5-F8AA-4457-9812-B815707076DD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_05_ByteBank</RootNamespace>
-    <AssemblyName>_05_ByteBank</AssemblyName>
+    <AssemblyName>05-ByteBank</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs" />
+    <Compile Include="ContaCorrente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
